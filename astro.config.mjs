@@ -25,6 +25,7 @@ function computedIntegrations() {
 function generateAstroConfigure() {
   const astroConfig = {
     site: slateConfig.site,
+    base: '/blog',
     integrations: computedIntegrations(),
     markdown: {
       remarkPlugins: [
