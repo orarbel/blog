@@ -3,6 +3,8 @@
 # Enable debug mode
 set -x
 
+npm run build
+
 # Go to the blog directory
 cd "$(dirname "$0")/.." || exit
 echo "📂 Changed to directory: $(pwd)"
