@@ -20,15 +20,13 @@ git status
 if ! git diff --cached --quiet; then
     echo "💫 Changes detected, committing..."
     # Commit with timestamp using conventional commit format
-    git commit -m "feat: update blog posts $(date '+%Y-%m-%d %H:%M:%S')"
-
-    # Push to GitHub
-    git push origin main
-
-    # Trigger GitHub Pages deployment
-    gh workflow run deploy.yml
-
-    echo "✨ Blog update triggered! Check status at: https://github.com/orarbel/blog/actions"
+    if git commit -m "feat: update blog posts $(date '+%Y-%m-%d %H:%M:%S')" && git push origin main; then
+        echo "✨ Changes pushed successfully!"
+        # No need to trigger workflow - the push will trigger it automatically
+    else
+        echo "❌ Failed to commit or push changes"
+        exit 1
+    fi
 else
     echo "❌ No changes to commit!"
     git status

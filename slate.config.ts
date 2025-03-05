@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'en-US',
   site: 'https://orarbel.github.io/blog',
   avatar: '/blog/avatar.png',
-  title: "Or Arbel's Blog",
+  title: "Or's Blog",
   description: 'Some thoughts, some stories.',
   lastModified: true,
   readTime: true,
