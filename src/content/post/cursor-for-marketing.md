@@ -1,13 +1,13 @@
 ---
-title: Cursor for Marketing
-description: Discover how Toffu AI revolutionizes marketing workflows as the Cursor-equivalent tool for marketing professionals
+title: Why Cursor clicked
+description: Why I switched from VS Code to Cursor and never looked back
 tags:
-  - Marketing
+  - Development
+  - IDE
   - AI
   - Productivity
-  - Automation
-  - Content Creation
-pubDate: 2024-12-03
+  - VS Code
+pubDate: 2025-03-05
 ---
 
 Astro
