@@ -1,5 +1,6 @@
 ---
-title: Why Cursor clicked
+title: Why Cursor clicked1
+slug: cursor-for-marketing
 description: Why I switched from VS Code to Cursor and never looked back
 tags:
   - Development
@@ -10,4 +11,4 @@ tags:
 pubDate: 2024-03-05
 ---
 
-Astro
+Astrosdfgdsgsfgsdf
