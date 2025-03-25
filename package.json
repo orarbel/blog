@@ -1,6 +1,7 @@
 {
   "name": "slate-blog",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.5.2",
   "description": "Pure thoughts, simple stories",
   "type": "module",
   "homepage": "https://github.com/leezhian/simple-blog.git",
