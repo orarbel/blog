@@ -7,7 +7,7 @@ tags:
   - AI
   - Productivity
   - VS Code
-pubDate: 2025-03-05
+pubDate: 2024-03-05
 ---
 
 Astro

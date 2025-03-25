@@ -26,7 +26,8 @@
     "lint-fix:script": "npm run lint:script -- --fix",
     "lint:script": "eslint",
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,astro}\"",
-    "sync-latest": "./scripts/sync-latest-blog.sh"
+    "sync-latest": "./scripts/sync-latest-blog.sh",
+    "deploy": "npm run build && touch dist/.nojekyll && gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
